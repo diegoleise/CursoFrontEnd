@@ -1,12 +1,10 @@
-@charset "utf-8";
-
 body {
     background-color: bisque;
 }
 nav {
 
     background-color:chocolate;
-    width: 1400px;
+    width: auto;
     height: 100px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,10 +19,11 @@ nav a {
 }
 
 #menu li{
-    float: left;
+    display: inline-block;
 }
 #menu  ul {
-    margin: 0;
+    text-align: center;
+    margin:auto;
     list-style: none;
     padding: 0;
 }
@@ -41,19 +40,19 @@ nav a {
 
 h1 {
     color: black;
-    font-size:  50px;
+    font-size:  80px;
     text-align: center;
     padding: 0px 5px;
     font-family: verdana;
 }
 
 
-   
 
 #menu a:hover{
         color:white;
         animation: 1s ms 1;
-        background:rgba(0,0,0,0.2);    
+        background:rgba(0,0,0,0.2);
+        transition: all .5s;    
     }
 
     @keyframes ms {
@@ -63,7 +62,6 @@ h1 {
 
 
 #menu li{
-   
     list-style: none;
     
 }
@@ -72,7 +70,6 @@ h2 {
     text-align: center;
     color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 img{
@@ -80,22 +77,28 @@ img{
     width: 200px;
     height:300px;
     transition: all .5s;
-   
 
 }
 .icono-mascota{
-    padding: 0 90px;
     width: 50px;
-    justify-content: space-between;
+    display: inline-block;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+
 }
+#iconos{
+    text-align: center;
+
+}    
 
 .contenedor {
     display: flex;
     justify-content: center;
-    
 }
+
 img:hover{
-  transform: scale(1.2);  
+    transform: scale(1.2);  
 }
     
 p{
@@ -111,16 +114,13 @@ p{
     list-style: none;  
     color: chocolate;
     display: flex
-  
 
     }
 
 .productos li{
     padding: 0px 100px
 }
-  
 
-  
 .royal{
     justify-content: center;
     display: flex;
