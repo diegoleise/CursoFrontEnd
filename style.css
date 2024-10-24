@@ -12,10 +12,10 @@ nav {
 }
 
 nav a {
+    margin: auto;
     text-decoration: none;
     display: block;
-    color:black;
-    margin: auto;
+    color:white
 }
 
 #menu li{
@@ -145,26 +145,28 @@ form{
 }
 
 .form-register{
-
-    width: 400px;
-    padding: 25px;
+    padding-top: 20px;
     margin: auto;
+    width: 500px;
+    height: 350px;
     margin-bottom: 50px;
     background-color: chocolate;
 }
 
 .botons{
     color:aliceblue;
-    margin: auto;
     background-color:blue;
-    width: 250px;
+    width: 300px;
     font-size: 15px;
+    margin-top: 20px;
     }
 
-.form-register .controls{
+.controls{
+    background-color: bisque;
     width: 400px;
     margin: auto;
     margin-bottom: 15px;
+    margin-top: 15px;
     height: 20px;
     border: 2px blue solid;
     font-size: 15px;
