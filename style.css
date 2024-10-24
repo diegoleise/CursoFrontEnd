@@ -146,38 +146,24 @@ form{
 
 .form-register{
 
-    width: 450px;
+    width: 400px;
     padding: 25px;
     margin: auto;
     margin-bottom: 50px;
     background-color: chocolate;
 }
 
-
-.controls{
+.botons{
+    color:aliceblue;
     margin: auto;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 15px;
-    height: 20px;
-    border: 2px blue solid;
+    background-color:blue;
+    width: 250px;
     font-size: 15px;
-}
-.form-register #botons{
-    text-decoration-color: aliceblue;    
-    width: 100%; 
-    margin: auto;
-    background-color: blue;
-    padding: 12px;
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: bold;
+    }
 
-}
 .form-register .controls{
+    width: 400px;
     margin: auto;
-    width: 100%;
-    text-align: center;
     margin-bottom: 15px;
     height: 20px;
     border: 2px blue solid;
