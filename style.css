@@ -137,10 +137,25 @@ p{
 
 
 form{
-    
     text-align: center;
     display: block
 }
+
 .form-register{
     text-align: center;
+}
+.form-register{
+    width: 1000px;
+    height: 35px;
+    background-color: chocolate;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls{
+    margin-left: auto;
+    margin-right: auto;
 }
