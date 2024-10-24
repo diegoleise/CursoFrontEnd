@@ -20,10 +20,12 @@ nav a {
 
 #menu li{
     display: inline-block;
+    list-style: none;
 }
 #menu  ul {
     text-align: center;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
     padding: 0;
 }
@@ -61,10 +63,6 @@ h1 {
     }
 
 
-#menu li{
-    list-style: none;
-    
-}
 
 h2 {
     text-align: center;
@@ -91,6 +89,8 @@ img{
 }
 #iconos{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     
 
 }    
@@ -137,7 +137,7 @@ p{
 
 
 form{
-    justify-content: center;
+    
     text-align: center;
     display: block
 }
