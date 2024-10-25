@@ -1,8 +1,9 @@
 body {
     background-color: bisque;
 }
-nav {
-
+nav.menu {
+    position:sticky;
+    top: 0;
     background-color:chocolate;
     width: auto;
     height: 50px;
@@ -14,22 +15,23 @@ nav {
 nav a {
     margin: auto;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     color:white
 }
 
-#menu li{
+.menu li{
     padding-left: 15px;
     padding-top: 15px;
     display: inline-block;
     list-style: none;
 }
-#menu  ul {
+
+.menu  ul {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     list-style: none;
-    padding: 0;
+    
 }
 
     nav a:before{
@@ -52,7 +54,7 @@ h1 {
 
 
 
-#menu a:hover{
+.menu a:hover{
         color:white;
         animation: 1s ms 1;
         background:rgba(0,0,0,0.2);
